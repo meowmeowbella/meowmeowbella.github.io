@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/bewwa/favicon.ico" type="image/x-icon" />
+    <script src="app.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnowAngel Garmz</title>
+  </head>
+  <body>
+    <header id="mainheader">
+      <h1 id="logo">SnowAngel Garmz</h1>
+      <nav id="navbar">
+        <ul id="navul">
+          <li><a href="/bewwa/index.html" class="navbutton">Home</a></li>
+          <li><a href="/bewwa/about.html" class="navbutton">About</a></li>
+          <li><a href="/bewwa/contact.html" class="navbutton">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="gallery">
+        <h2>Example Designs</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="/bewwa/IMG_3776.png" alt="Vest 1" />
+            <p>Strawberry Pink Graphic</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/bewwa/IMG_3778.png" alt="Vest 2" />
+            <p>Ponyo Graphic</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/bewwa/IMG_3780.png" alt="Vest 3" />
+            <p>Black Cat Design</p>
+          </div>
+          <div class="gallery-item">
+            <img src="/bewwa/IMG_3779.png" alt="Dungarees 1" />
+            <p>Classical Mouse Design</p>
+          </div>
+          <!-- Add more gallery items as needed -->
+        </div>
+      </section>
+
+      <section id="form-area">
+        <div id="form">
+          <form action="" method="">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required />
+            <br />
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="clothing">What clothing do you want designed?:</label>
+            <br />
+            <input type="radio" id="shoe" name="clothing" value="shoe" />
+            <label for="shoe">Shoe</label>
+            <input type="radio" id="vest" name="clothing" value="vest" />
+            <label for="vest">Vest</label>
+            <input
+              type="radio"
+              id="dungarees"
+              name="clothing"
+              value="dungarees"
+            />
+            <label for="dungarees">Dungarees</label>
+            <br />
+            <label for="country">Country:</label>
+            <br />
+            <select id="country" name="country">
+              <option value="england">England</option>
+              <option value="scotland">Scotland</option>
+              <option value="wales">Wales</option>
+              <option value="northern_ireland">Northern Ireland</option>
+            </select>
+            <br />
+            <label for="bio">What design would you like?:</label>
+            <textarea id="bio" name="bio" cols="30" rows="10"></textarea>
+            <br />
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="subscribe">Subscribe to my newsletter!</label>
+            <br />
+            <input type="submit" value="Send!" />
+          </form>
+        </div>
+      </section>
+      <footer>&copy; SnowAngel Garmz | Designed by Arabella</footer>
+    </main>
+  </body>
+</html>

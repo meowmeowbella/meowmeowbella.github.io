@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playwrite CU', sans-serif; /* Fallback to sans-serif if Arial is not available */
+}
+
+/* Optional: Override font for specific elements if needed */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playwrite CU', sans-serif; /* Different font for headers */
+}
+
+p, ul, ol, a {
+    font-family: 'Playwrite CU', sans-serif; /* Different font for paragraphs and lists */
+}
+
+main > section > h2 {
+    font-family: 'Playwrite CU', sans-serif;
+}
+
+#logo {
+    margin: 0%;
+    padding: 8px;
+    font-family: "Arial", sans-serif;
+    border-radius: 15%;
+    text-shadow: 
+    2px 2px 2px black,
+    2px 2px 2px black;
+    color: #ffffff;
+}
+
+header {
+    background-color: #FFF5E4;
+    color: #FEFAE0;
+    padding: 20px;
+    text-align: center;
+}
+
+body > header > nav > ul > li > a {
+    text-decoration: none;
+    color: #FF9494;
+    font-weight: bolder;
+}
+
+#navbar {
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+#navul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+#gallery {
+    padding: 20px;
+    background-color: #FFE3E1;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-family: 'Fredoka One', sans-serif;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%; /* Ensure the image fits the container */
+    height: 400px; /* Fixed height for all images */
+    object-fit: cover; /* Crop images to fit the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.gallery-item p {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery img {
+    width: 150px; /* Fixed width for images */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Crop image to fit within the defined width and height */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* General form styling */
+form {
+    max-width: 600px; /* Limits form width for better readability */
+    margin: 20px auto; /* Centers the form on the page with some margin */
+    padding: 20px; /* Adds padding inside the form */
+    background-color: #FFE3E1; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Label styling */
+form label {
+    display: block; /* Labels take up the full width */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Space inside input fields */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Radio buttons and checkboxes styling */
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px; /* Space between the checkbox/radio and its label */
+}
+
+form label[for="dog"],
+form label[for="cat"],
+form label[for="hedgehog"] {
+    margin-right: 15px; /* Space between radio button labels */
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style radio buttons and their labels */
+form input[type="radio"] {
+    vertical-align: middle; /* Aligns the radio button with the text */
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+form label {
+    display: inline; /* Ensure labels are displayed inline with the radio button */
+    margin-right: 15px; /* Space between different radio button-label pairs */
+}
+
+footer {
+    background-color: #FF9494;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#form-area {
+    background-color: #FEFAE0;
+    padding: 10px;
+}
